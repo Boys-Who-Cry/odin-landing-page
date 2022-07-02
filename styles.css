@@ -24,11 +24,16 @@ body {
   align-items: center;
   color: white;
   background-color: #1F2937;
-  padding: 10px 0;
+  padding: 20px 0;
+}
+.navigation h1 {
+  font-size: 24px;
+  color: #F9FAF8;
 }
 .navigation div a {
   text-decoration: none;
-  color: white;
+  font-size: 18px;
+  color: #E5E7EB;
   padding: 0 7px;
 }
 
@@ -40,15 +45,16 @@ body {
   justify-content: center;
   align-items: center;
   gap: 5%;
-  height: 250px;
   background-color: #1F2937;
-  padding: 20px 0;
+  padding: 40px 0;
 }
 .box1-body {
   width: 30%;
-  height: 150px;
 }
 .box1-body h2 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
   padding-bottom: 15px;
 }
 .box1-body p {
@@ -62,6 +68,9 @@ body {
   border-radius: 5px;
 }
 .box1-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   width: 30%;
   height: 150px;
@@ -75,11 +84,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px 0;
+  padding: 40px 0;
 }
 .box2 h2 {
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
   padding-bottom: 20px;
 }
 .box2-images {
@@ -116,15 +126,21 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px 0;
+  padding: 40px 0;
   background-color: #E5E7EB;
 }
 .box3 div {
   width: 50%;
   padding: 80px;
 }
+.box3-quote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
 .box3 p {
   text-align: right;
+  font-weight: bold;
 }
 
 
